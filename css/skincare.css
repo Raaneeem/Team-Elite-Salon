@@ -1,0 +1,622 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar
+{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index: 99999999;
+}
+.navbar .navbar-logo img
+{
+    padding-left: 20px;
+    width: 50%;
+}
+.menu-bar
+{
+    color: rgba(0,0,0,0.5);
+    font-size: 2rem;
+    top: 1rem;
+    left: 1rem;
+    cursor: pointer;
+    z-index: 99;
+}
+.sidenav
+{
+    background-color: rgba(0, 0, 0,0.6);
+    box-shadow: inset 10px 10px 10px rgb(90, 89, 89);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 2rem  1rem;
+    height: 100vh;
+    width: 100%;
+    display: none;
+}
+.sidenav ul
+{
+    padding-top: 4rem;
+}
+.sidenav  li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.sidenav li
+{
+    color: white;
+    padding: .8rem;
+    width: 100%;
+    text-align: center;
+}
+.sidenav .navigation li:hover
+{
+    background-color: rgba(198,182,167,0.9);
+}
+.sidenav li a i
+{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 6px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.sidenav li a i:hover
+{
+    background-color: rgba(198,182,167,0.9);
+}
+/**/
+/* start sec1 */
+.sec1 {
+    background-color:#e6cdba;
+    height: 100vh;
+    position: relative;
+}
+.sec1 img {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 20rem;
+    border-top-left-radius: 15%;
+}
+.sec1 h1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 25rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.sec1 .st {
+    font-size: 1.7rem;
+}
+.sec1 .com  {
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 67%;
+    width: 25rem;
+    font-size: 3rem;
+}
+/*end sec1*/
+/* start sec2 */
+.sec2 h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #e6cdba;
+}
+.sec2 hr {
+    width: 30%;
+    margin-left: 24rem;
+    color: #78604d;
+}
+.sec2 h5 {
+    transition: all 2s;
+}
+.sec2 h5:hover {
+    color: #e6cdba;
+    transform: scale(1.3);
+
+}
+.sec2 .row {
+    margin: 4rem;
+}
+.sec2 .row img {
+    width: 8rem;
+    height: 8rem;
+    margin-bottom: 1rem;
+}
+.sec2 .dropdown ul li img {
+    width: 5rem;
+    height: 5rem;
+    margin: .5rem;
+    
+}
+.sec2 .mask{
+    color: #e6cdba;
+
+}  
+.sec2 .dropdown .n img {
+    height: 10rem;
+}
+/* end sec2 */
+
+/* start sec3 */
+.sec3{
+    height: 100vh;
+    background-image: url(../img/skincare/bg3.jpg);
+    background-size: cover;
+}
+.sec3 h2 {
+    font-size: 4rem ;
+    font-weight: 600;
+    color:#e6cdba
+}
+.sec3 img {
+    width: 20rem;
+    height: 12rem;
+    margin: .5rem;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    transition: all 2s;
+    cursor: pointer;
+}
+.sec3 img:hover {
+    transform: scale(1.2);
+    
+}
+/* end sec3 */
+
+/* start sec5 */
+.sec5 {
+    height: 100vh;
+    background-color:#efe3d9;
+}
+.sec5 h2 {
+    font-size: 4rem ;
+    font-weight: 600;
+}
+.sec5 .card {
+    width: 15rem;
+    margin: 3rem;
+}
+.sec5 .card img{
+    height: 15rem;
+}
+.sec5 p:hover {
+    color: #c6b6a7;
+
+}
+.sec5 a{
+    text-decoration: none;
+    color: #000;
+}
+.sec5 a:hover{
+    color:#c6b6a7;
+}
+/* end sec5 */
+
+/* start sec6 */
+
+.sec6 h2 {
+    font-size: 4rem ;
+    font-weight: 600;
+    color:#e6cdba
+}
+.sec6 .product {
+    width: 35rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: 18rem;
+}
+.sec6 img {
+    text-align: center;
+    width: 10rem;
+    height: 10rem;
+}
+.sec6 .a {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+}
+.sec6 a{
+    text-decoration: none;
+    color: #c6b6a7;
+}
+.sec6 a:hover{
+    color: #000;
+}
+/* end sec6 */
+
+/*footer*/
+/**/
+.footer
+{
+    border-top: 1px  solid black;
+    background-color: #efe3d9;
+}
+.footer img
+{
+    width: 10%;
+}
+.footer .footer-content
+{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer .footer-content input
+{
+    width: 400px;
+    margin: auto;
+}
+.footer .footer-content button
+{
+    background-color:#e6cdba;
+}
+.footer .footer-content ul
+{
+    margin: auto;
+    width: 40%;
+    padding-bottom: 20px;
+}
+.footer .footer-content ul a
+{
+    text-decoration: none;
+    color: black;
+    width: 50px;
+    height: 50px;
+    padding-left: 5px;
+}
+.footer .footer-content ul li a:hover
+{
+    background-color: #e6cdba;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+/**/
+/*loader*/
+
+.loader{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgb(228, 219, 211);
+    z-index: 999999999999999;
+    display: flex;
+}
+body{
+    overflow: hidden;
+}
+
+
+.spinner {
+    width: 60px;
+    height: 60px;
+  
+    position: relative;
+    margin: 100px auto;
+  }
+  
+  .double-bounce1, .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color:#b19580;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+  }
+  
+  .double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  @-webkit-keyframes sk-bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bounce {
+    0%, 100% { 
+      transform: scale(0.0);
+      -webkit-transform: scale(0.0);
+    } 50% { 
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+    }
+  }
+  /*loader*/
+  /*top button*/
+  .topBtn{
+    background-color:rgb(198, 182, 167);
+    color: white;
+    width: 40px;
+    height: 40px;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    position: fixed;
+    z-index: 99999999999999;
+    border:2px solid rgb(198, 182, 167);
+    display: none;
+
+  }
+  /*top button*/
+
+  .reservation{
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    z-index: 99999;
+    display: none;
+}
+.reservation .btn{
+    z-index: 999;
+    position: absolute;
+    margin-left: -84px;
+    margin-top: 14px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    line-height: 50px;
+    padding-left: 7px;
+}
+.reservation .btn:hover{
+    border: none;
+    background-color: #c6b6a788;
+}
+.res{
+   
+    min-width: 5vw;
+    margin: 5vh auto;
+    text-align: center;
+    position: relative;
+    z-index: 99;
+  }
+  #test{
+    font-weight: 900;
+    color: #394add;
+    font-size: 10px;
+    display: inline-block;
+    margin-bottom: 128px;
+    position: relative;
+    border: 1px solid #f00;
+    transform: scale(1);
+    transform-origin: center center;
+    animation: rotation 5s linear infinite;
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+
+@media (max-width: 500px) 
+{   .navbar-collapse
+    {
+        background-color: rgb(198, 182, 167) !important;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .navbar-collapse li a:hover
+    {
+        color: white;
+    }
+    .navbar-toggler
+    {
+        border: none;
+        outline: none;
+    }
+    .menu-bar
+    {
+       position: fixed;
+       top: 1.5rem;
+    }
+    .navbar .navbar-logo img
+    {
+        padding-left: 65px;
+        width: 55%;
+    }
+    .sec1 {
+        height: 40vh;
+    }
+    .sec1 img {
+        position: absolute;
+        top: 36%;
+        left: 35%;
+        width: 8rem;
+    }
+    .sec1 h1 {
+        left: 3%;
+        width: 8rem;
+        font-size: 1rem;
+    }
+    .sec1 .com  {
+        top: 35%;
+        left: 65%;
+        width: 10rem;
+        font-size: 1rem;
+    }
+    .sec1 .st{
+        font-size: .8rem;
+    }
+    .sec2 hr {
+        margin-left: 9rem;
+    }
+    .sec2 .row {
+        margin: 2rem;
+    }
+    .sec2 .row img {
+        width: 6rem;
+        height: 6rem;
+        margin-top: 2rem;
+    }
+    .sec3 h2 {
+        font-size: 3rem ;
+    }
+    .sec3 img {
+        width: 65%;
+        height: 6rem;
+        margin: .3rem;
+        margin-left: 4rem;
+    }
+    .sec6 .product {
+        width: 25rem;
+        margin-left: 0rem;
+    }
+    .sec5 {
+        height: 60vh;
+    }
+    .sec5 .card {
+        width: 13rem;
+        margin: 0.1rem;
+    }
+    .sec5 .card img{
+        height: 10rem;
+    }
+    .sec5 p {
+        font-size: .6rem;
+    
+    }
+    .footer .footer-content
+    {
+     width: 100%;
+    }
+     .footer .footer-content input
+     {
+      width: 80%;
+     }
+     .footer ul 
+     {
+         margin: auto;
+     }
+}
+@media (max-width: 955px) and (min-width:501px)
+{
+    .navbar-collapse
+    {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .navbar-toggler
+    {
+        border: none;
+        outline: none;
+    }
+    .navbar-collapse li a:hover
+    {
+        color: white;
+    }
+    .menu-bar
+    {
+    position: fixed;
+       top: 1.5rem;
+    }
+    .navbar .navbar-logo img
+    {
+        padding-left: 50px;
+    }
+    .sec1 {
+        height: 60vh;
+    }
+    .sec1 img {
+        top: 41%;
+        left: 35%;
+        width: 15rem;
+    }
+    .sec1 h1 {
+        left: 3%;
+        width: 14rem;
+        font-size: 2rem;
+    }
+    .sec1 .com  {
+        top: 35%;
+        left: 65%;
+        width: 16rem;
+        font-size: 3rem;
+    }
+    .sec1 .st{
+        font-size: 1.5rem;
+    }
+    .sec2 hr {
+        margin-left: 16rem;
+    }
+    .sec2 .row .col{
+        margin-left: 5rem;
+    
+    }
+    .sec2 .row img {
+        width: 6rem;
+        height: 6rem;
+        margin: 1rem;
+    }
+    .sec2 h5 {
+        font-size: 1rem;
+        width: 10rem;
+    }
+    .sec2 .dropdown ul li img {
+        width: 4rem;
+        height: 4rem;
+        margin: .3rem; 
+    }
+    .sec2 .mask{
+        font-size: .64rem;
+    }  
+    .sec3 {
+        height: 70vh;
+    }
+    .sec3 h2 {
+        font-size: 4rem ;
+    }
+    .sec3 img {
+        width: 14rem;
+        height: 15rem;
+        margin: .5rem;
+    }
+    .sec6 .product {
+        width: 25rem;
+        margin-left: 10rem;
+    }
+    .sec5 {
+        height: 60vh;
+    }
+    .sec5 .card {
+        width: 15rem;
+        margin: 0.3rem;
+    }
+    .sec5 .card img{
+        height: 15rem;
+    }
+    .sec5 p {
+        font-size: 1rem;
+    
+    }
+
+}
